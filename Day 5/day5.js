@@ -1,1 +1,1 @@
-console.log("On day 5, learned switch.")
+console.log("On day 5, continued with IF & ELSE.")
