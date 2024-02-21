@@ -1,0 +1,1 @@
+console.log("On day 5, learned switch.")
