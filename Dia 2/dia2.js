@@ -1,1 +1,0 @@
-console.log("on day 2 learning git")
