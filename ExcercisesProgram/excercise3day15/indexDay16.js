@@ -1,6 +1,6 @@
 
-names = ["mike"]
-passwords = [123]
+names = ["mike", "thay"];
+passwords = ["123", "456"];
 
 function typeOfAction(){
 
@@ -42,11 +42,13 @@ console.log(passwords)
              login();
         name = prompt("type name")
         password = prompt("type password")
+        // let index = [];
         let loginValid = false;
 
     for (let i = 0; i < names.length; i++){
         if(name = names[i] && password == passwords[i]) {
                 loginValid = true;
+                i = names.length;
         }
     }
         
@@ -58,22 +60,52 @@ console.log(passwords)
 
     console.log(names)  
     console.log(passwords)
-}
-   
-    
 
- /*    break;
    
+    break;
+
      case "3":
             deleteAccount();
+            let personname = prompt("type name")
+
+           // let deleted1 = names.indexOf(i) 
+            //let deleted2 = passwords.indexOf(i)
+            // let i = 1;
+
+            for (let i = 0; i < names.length; i++){
+                if(personname = names[i])
+                    {
+                       names[i] = "";
+                       passwords[i] = "";
+                        i = names.length;
+                }
+            }
+            console.log("account deleted");
+            
+           
+
+            let filteredArrayName = names.filter(item => item.trim() !== "");
+            let filteredArrayPW = passwords.filter(item => item.trim() !== "");
+
+            console.log(filteredArrayName);
+            console.log(filteredArrayPW);
+            console.log(names);
+            console.log(passwords);
+
+            names = filteredArrayName;
+            passwords = filteredArrayPW;
+
+            console.log(names);  
+            console.log(passwords);
+
     break;
-    
+            
     case "4":
  console.log("end program")
     break;
 
 
-
+}
 
 /*var name = prompt("enter name")
 var password = prompt("enter password")
