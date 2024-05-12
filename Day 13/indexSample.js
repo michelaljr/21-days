@@ -34,4 +34,3 @@ while(continuee){
         studentIndex++ 
     }
 }
-
