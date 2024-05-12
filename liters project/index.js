@@ -1,27 +1,30 @@
-function liters(distance, fuelType) {
-    
-    distance = parseInt(prompt("Enter the distance you will travel in kilometers"))
+      let distance = Number(prompt("type distance"))
+      let fuelType = prompt("type fuel")
+      
+
+
+    function liters(distance, fuelType) {
+
     if (distance < 0) {
-      console.log('Distance must be a non negative number')
-    } else {
-      return distance
-    }
-
-    let fuelType = prompt("What kind of fuel are you using? gasoline/ethanol")
+      console.log('Distance must be a non negative number');
+      return;
+    } 
+  
     if (fuelType !== 'gasoline' && fuelType !== 'ethanol') {
-      console.log('Fuel type must be either "gasoline" or "ethanol".')
-    } else {
-        return fuelType
+      console.log('Fuel type must be either "gasoline" or "ethanol".');
+      return;
+    }
+    
+    
+        // fuel consumption rate
+      const consumptionRate = {
+        'gasoline': 16,  // km per liter
+        'ethanol': 11     // km per liter
+      };
+
+      // calculate fuel consumption give distance and fuel type
+      const fuelConsumed = distance / consumptionRate[fuelType];
+      return fuelConsumed;
     }
 
-switch (calculateLiters) {
-    case "gasoline":
-        console.log("you will use " + (distance / 16) + "liters for your trip." )
-        break;
-    case "ethanol":
-        console.log("you will use " + (distance / 11) + "liter for your trip")
-    }
-
-}
-
-
+    console.log(liters(distance, fuelType));
