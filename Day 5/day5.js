@@ -1,1 +1,0 @@
-console.log("On day 5, continued with IF & ELSE.")

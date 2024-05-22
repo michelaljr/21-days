@@ -1,0 +1,135 @@
+.header{
+    background-color: beige;
+    height: 13.5vh;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+.search{
+    height: 4vh;
+    text-align: center;
+}
+
+.navBar{
+    text-align: center;
+    height: 4vh;
+    border-style: groove;
+    line-height: 3vh;
+}
+
+.navOptions{
+    vertical-align: middle;
+    line-height: normal;
+    margin-left: 3vw;
+}
+
+.navOptions:hover{
+    transition-duration: .5s;
+    transition-property: background-color;
+    padding: .3%;
+    border-radius: .2% ;
+    background-color: rgb(199, 172, 142);
+}
+
+.navOptionReg{
+    float: right;
+    margin-right: 4vw;
+}
+
+.content{
+    background-color: beige;
+    height: 100vh;
+    text-align: center;
+}
+
+.Productos{
+    text-align: center;
+    height: 35vh;
+    background-color: brown;
+    display: block;
+    border-radius: 1vw;
+}
+
+.ProductosTitle, span{
+    text-align: center;
+    padding-top: 1vh;
+    vertical-align: middle;
+}
+
+.Producto1{
+    height: 30vh;
+    width: 33%;
+    float: left;
+    border-right: solid gray;
+    overflow: hidden;
+}
+
+.inside{
+    width: 15vw;
+    height: 25vh;
+    margin-left: 25%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.inside:hover{
+    height: 280px;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+}
+
+.price#old{
+    color: gray;
+    font-family: cursive;
+    text-decoration: line-through;
+    position: relative;
+    top: -30px;
+}
+
+.price#new{
+    font-family: cursive;
+    font-stretch:extra-expanded;
+    color:darkcyan;
+    position: relative;
+    top: -40px;
+}
+
+
+.Producto2{
+    height: 30vh;
+    width: 33%;
+    float: left;
+    border-right: solid gray ;
+}
+
+.Producto3{
+    height: 30vh;
+    width: 33%;
+    float: left;
+}
+
+.AgendaServiço{
+    text-align: center;
+    height: 50vh;
+    display: block;
+    border-radius: 1vw;
+}
+
+.AgendaTitle, span{
+    text-align: center;
+    padding-top: 1vh;
+    vertical-align: middle;
+}
+
+.Banho{
+    height: 40vh;
+    width: 50%;
+    float: left;
+}
+
+.Passear{
+    height: 40vh;
+    width: 50%;
+    float: left;
+}

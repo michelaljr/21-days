@@ -1,1 +1,0 @@
-console.log("Day 7, learned loops repetions for FOR")

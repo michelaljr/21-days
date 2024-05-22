@@ -1,1 +1,0 @@
-console.log("practicing while and while do. Didn't go so well.")

@@ -1,0 +1,24 @@
+.headerblock{
+    margin: 0 auto;
+    max-width: 60%;
+    background-color: brown;
+    text-align: center;
+
+}
+
+.content{
+
+    margin: 30px auto;
+    background-color: cadetblue;
+    max-width: 90vw;
+    height: 100vh;
+}
+
+.card{
+    margin: 1vh 5vw;
+    width: 35vw;
+    height: 100px;
+    background-color: darkkhaki;
+    float: left;
+    
+}

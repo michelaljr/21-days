@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeStore</title>
+    <link rel="stylesheet" href="store.css">
+</head>
+<body>
+
+<section class="bg"> 
+    <form id="store" onsubmit="submitForm(event)"> 
+
+    <div> <label> Store Form </label> </div>
+    <div> <label> Store Name </label> <input type="text" name="storename" id="storename" placeholder="Ex: Sunglass Hut "/> </div>
+ 
+    <div> <label> Store Address </label> <input type="text" id="address" placeholder="Ex: 123 Summit Road "/> </div>
+
+    <div> 
+        <label> Days Open </label>
+        <div> <label> Monday </label> 
+            <input type="checkbox" name="do" value="Monday"/> 
+            
+        <label> Tuesday </label> 
+            <input type="checkbox" name="do" value="Tuesday"/> 
+        
+        <label> Wedneday </label> 
+            <input type="checkbox" name="do" value="Wedneday"/> 
+           
+        <label> Thursday </label> 
+            <input type="checkbox" name="do" value="Thursday"/>
+            
+         <label> Friday </label> 
+            <input type="checkbox" name="do" value="Friday"/>
+           
+         <label> Saturday </label> 
+            <input type="checkbox" name="do" value="Saturday"/>
+            
+         <label> Sunday </label> 
+            <input type="checkbox" name="do" value="Sunday"/>
+    </div>
+
+    <div> <label for="openTime"> Open Time </label> 
+            <input type="time" id="openTime" /></div>
+
+    <div> <label for="closeTime"> Close Time </label> 
+            <input type="time" id="closeTime" />
+        </div>
+            
+            
+    <button type="submit" >Submit Form </button>
+           
+            
+
+</form>
+
+</section>
+    <script src="copy.js"></script> 
+
+
+
+</body>
+</html>
